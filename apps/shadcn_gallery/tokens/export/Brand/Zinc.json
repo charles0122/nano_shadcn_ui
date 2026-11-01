@@ -1,0 +1,39 @@
+{
+  "$description": "shadcn zinc base color.",
+  "brand": {
+    "primary": {
+      "light": {
+        "$type": "color",
+        "$value": "#18181B",
+        "$description": "Light-mode primary (--primary)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#FAFAFA",
+        "$description": "Dark-mode primary (--primary)."
+      }
+    },
+    "onPrimary": {
+      "light": {
+        "$type": "color",
+        "$value": "#FAFAFA",
+        "$description": "Foreground on primary (--primary-foreground)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#18181B"
+      }
+    },
+    "ring": {
+      "light": {
+        "$type": "color",
+        "$value": "#09090B",
+        "$description": "Focus ring (--ring)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#D4D4D8"
+      }
+    }
+  }
+}

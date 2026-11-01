@@ -1,0 +1,194 @@
+{
+  "$description": "shadcn dark mode — zinc neutrals + brand accent refs.",
+  "color": {
+    "canvas": {
+      "$type": "color",
+      "$value": "#09090B",
+      "$description": "--background"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#09090B",
+      "$description": "--card"
+    },
+    "background": {
+      "surface": {
+        "subtle": {
+          "$type": "color",
+          "$value": "#27272A"
+        }
+      }
+    },
+    "foreground": {
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "#FAFAFA"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "#A1A1AA",
+          "$description": "--muted-foreground"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "#52525B"
+        }
+      },
+      "icon": {
+        "primary": {
+          "$type": "color",
+          "$value": "#FAFAFA"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "#A1A1AA"
+        }
+      },
+      "link": {
+        "default": {
+          "$type": "color",
+          "$value": "{brand.primary.dark}"
+        }
+      },
+      "accent": {
+        "secondary": {
+          "$type": "color",
+          "$value": "{brand.primary.dark}"
+        }
+      }
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{brand.primary.dark}"
+    },
+    "onAccent": {
+      "$type": "color",
+      "$value": "{brand.onPrimary.dark}"
+    },
+    "action": {
+      "primary": {
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{brand.primary.dark}"
+          }
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{brand.onPrimary.dark}"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": "#27272A"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "#52525B"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "#27272A"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "#3F3F46"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{brand.ring.dark}"
+      }
+    },
+    "overlay": {
+      "scrim": {
+        "$type": "color",
+        "$value": "#B3000000"
+      }
+    },
+    "effect": {
+      "shadow": {
+        "default": {
+          "$type": "color",
+          "$value": "#66000000"
+        }
+      }
+    },
+    "status": {
+      "danger": {
+        "foreground": {
+          "$type": "color",
+          "$value": "#EF4444",
+          "$description": "danger foreground — banner text and solid fills."
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#2A0F10",
+          "$description": "danger tinted surface."
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#7F1D1D",
+          "$description": "danger stroke."
+        }
+      },
+      "success": {
+        "foreground": {
+          "$type": "color",
+          "$value": "#22C55E",
+          "$description": "success foreground — banner text and solid fills."
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#0C1F14",
+          "$description": "success tinted surface."
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#14532D",
+          "$description": "success stroke."
+        }
+      },
+      "warning": {
+        "foreground": {
+          "$type": "color",
+          "$value": "#F59E0B",
+          "$description": "warning foreground — banner text and solid fills."
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#241A05",
+          "$description": "warning tinted surface."
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#78350F",
+          "$description": "warning stroke."
+        }
+      },
+      "info": {
+        "foreground": {
+          "$type": "color",
+          "$value": "#3B82F6",
+          "$description": "info foreground — banner text and solid fills."
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#0D1B2E",
+          "$description": "info tinted surface."
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#1E40AF",
+          "$description": "info stroke."
+        }
+      }
+    }
+  }
+}

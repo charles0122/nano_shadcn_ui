@@ -1,0 +1,180 @@
+{
+  "elevation": {
+    "shadow": {
+      "raised": {
+        "offset-x": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-raised-offset-x)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.0}",
+          "$description": "阴影 raised 的 offset-x，单位 px；使用对应 Elevation/shadow 样式。"
+        },
+        "offset-y": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-raised-offset-y)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.2}",
+          "$description": "阴影 raised 的 offset-y，单位 px；使用对应 Elevation/shadow 样式。"
+        },
+        "blur": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-raised-blur)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.blur.8}",
+          "$description": "阴影 raised 的 blur，单位 px；使用对应 Elevation/shadow 样式。"
+        },
+        "spread": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-raised-spread)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.0}",
+          "$description": "阴影 raised 的 spread，单位 px；使用对应 Elevation/shadow 样式。"
+        }
+      },
+      "overlay": {
+        "offset-x": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-overlay-offset-x)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.0}",
+          "$description": "阴影 overlay 的 offset-x，单位 px；使用对应 Elevation/shadow 样式。"
+        },
+        "offset-y": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-overlay-offset-y)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.8}",
+          "$description": "阴影 overlay 的 offset-y，单位 px；使用对应 Elevation/shadow 样式。"
+        },
+        "blur": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-overlay-blur)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.blur.24}",
+          "$description": "阴影 overlay 的 blur，单位 px；使用对应 Elevation/shadow 样式。"
+        },
+        "spread": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-overlay-spread)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.0}",
+          "$description": "阴影 overlay 的 spread，单位 px；使用对应 Elevation/shadow 样式。"
+        }
+      },
+      "floating": {
+        "offset-x": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-floating-offset-x)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.0}",
+          "$description": "浮动面板阴影的 offset-x，单位 px。"
+        },
+        "offset-y": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-floating-offset-y)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.4}",
+          "$description": "浮动面板阴影的 offset-y，单位 px。"
+        },
+        "blur": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-floating-blur)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.blur.16}",
+          "$description": "浮动面板阴影的 blur，单位 px。"
+        },
+        "spread": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--elevation-shadow-floating-spread)"
+            }
+          },
+          "$type": "number",
+          "$value": "{shadow.offset.0}",
+          "$description": "浮动面板阴影的 spread，单位 px。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "platform": {
+    "font-family": {
+      "zh-Hans": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_FAMILY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--platform-font-family-zh-Hans)"
+          }
+        },
+        "$type": "text",
+        "$value": "{font-family.noto-sans-sc}",
+        "$description": "DTCG platform.font-family.zh-Hans; demo mapping.\niOS: ios; reference-fallback; nativeVerified=false; Figma preview only.\nAndroid: android; reference-only; nativeVerified=false; Figma preview only.\nHarmonyOS: harmonyos; reference-fallback; nativeVerified=false; Figma preview only."
+      },
+      "latin": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_FAMILY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--platform-font-family-latin)"
+          }
+        },
+        "$type": "text",
+        "$value": "{font-family.sf-pro}",
+        "$description": "DTCG platform.font-family.latin; demo mapping.\niOS: ios; reference-only; nativeVerified=false; Figma preview only.\nAndroid: android; reference-only; nativeVerified=false; Figma preview only.\nHarmonyOS: harmonyos; reference-fallback; nativeVerified=false; Figma preview only."
+      },
+      "ja": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_FAMILY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--platform-font-family-ja)"
+          }
+        },
+        "$type": "text",
+        "$value": "{font-family.noto-sans-jp}",
+        "$description": "DTCG platform.font-family.ja; demo mapping.\niOS: ios; reference-fallback; nativeVerified=false; Figma preview only.\nAndroid: android; reference-fallback; nativeVerified=false; Figma preview only.\nHarmonyOS: harmonyos; reference-fallback; nativeVerified=false; Figma preview only."
+      }
+    }
+  }
+}

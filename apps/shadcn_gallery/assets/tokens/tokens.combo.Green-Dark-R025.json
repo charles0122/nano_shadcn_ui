@@ -1,0 +1,785 @@
+{
+  "DTCG.Type.Body.Default": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 14.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 400
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 143.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "DTCG.Type.Body.Reading": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 16.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 400
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 175.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "DTCG.Type.Body.Supporting": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 14.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 400
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 143.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "DTCG.Type.Display.Compact": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 24.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 132.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.6
+      }
+    }
+  },
+  "DTCG.Type.Display.Hero": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 36.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 700
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 140.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.9
+      }
+    }
+  },
+  "DTCG.Type.Display.Metric": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 30.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 700
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 136.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.75
+      }
+    }
+  },
+  "DTCG.Type.Heading.H1": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 36.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 140.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.9
+      }
+    }
+  },
+  "DTCG.Type.Heading.H2": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 30.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 136.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.75
+      }
+    }
+  },
+  "DTCG.Type.Heading.H3": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 24.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 132.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.6
+      }
+    }
+  },
+  "DTCG.Type.Heading.H4": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 20.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 128.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.4
+      }
+    }
+  },
+  "DTCG.Type.Heading.H5": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 18.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 128.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": -0.3
+      }
+    }
+  },
+  "DTCG.Type.Heading.H6": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 16.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 600
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 124.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "DTCG.Type.Label.Action": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 14.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 500
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 143.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "DTCG.Type.Label.Metadata": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 12.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 500
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 133.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "DTCG.Type.Label.Navigation": {
+    "type": "typography",
+    "members": {
+      "fontFamily": {
+        "type": "fontFamily",
+        "value": [
+          "Geist"
+        ]
+      },
+      "fontSize": {
+        "type": "dimension",
+        "value": 14.0
+      },
+      "fontWeight": {
+        "type": "fontWeight",
+        "value": 500
+      },
+      "lineHeight": {
+        "type": "number",
+        "value": 143.0
+      },
+      "letterSpacing": {
+        "type": "number",
+        "value": 0.0
+      }
+    }
+  },
+  "Elevation.shadow.floating": {
+    "type": "boxShadow",
+    "color": "#1A000000",
+    "offsetX": 0.0,
+    "offsetY": 4.0,
+    "blur": 6.0,
+    "spread": -1.0,
+    "inset": false
+  },
+  "Elevation.shadow.overlay": {
+    "type": "boxShadow",
+    "color": "#1A000000",
+    "offsetX": 0.0,
+    "offsetY": 10.0,
+    "blur": 15.0,
+    "spread": -3.0,
+    "inset": false
+  },
+  "Elevation.shadow.raised": {
+    "type": "boxShadow",
+    "color": "#0D000000",
+    "offsetX": 0.0,
+    "offsetY": 1.0,
+    "blur": 2.0,
+    "spread": 0.0,
+    "inset": false
+  },
+  "border.width.control.default": {
+    "type": "dimension",
+    "value": 1.0
+  },
+  "border.width.control.focus": {
+    "type": "dimension",
+    "value": 2.0
+  },
+  "border.width.divider.default": {
+    "type": "dimension",
+    "value": 1.0
+  },
+  "border.width.surface.card": {
+    "type": "dimension",
+    "value": 1.0
+  },
+  "brand.onPrimary.dark": {
+    "type": "color",
+    "argb": 4294967295,
+    "hex": "#FFFFFFFF"
+  },
+  "brand.onPrimary.light": {
+    "type": "color",
+    "argb": 4294967295,
+    "hex": "#FFFFFFFF"
+  },
+  "brand.primary.dark": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "brand.primary.light": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "brand.ring.dark": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "brand.ring.light": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "color.accent": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "color.action.disabled.background": {
+    "type": "color",
+    "argb": 4280756010,
+    "hex": "#FF27272A"
+  },
+  "color.action.disabled.foreground": {
+    "type": "color",
+    "argb": 4283585115,
+    "hex": "#FF52525B"
+  },
+  "color.action.primary.background.default": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "color.action.primary.foreground.default": {
+    "type": "color",
+    "argb": 4294967295,
+    "hex": "#FFFFFFFF"
+  },
+  "color.background.surface.subtle": {
+    "type": "color",
+    "argb": 4280756010,
+    "hex": "#FF27272A"
+  },
+  "color.border.default": {
+    "type": "color",
+    "argb": 4280756010,
+    "hex": "#FF27272A"
+  },
+  "color.border.focus": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "color.border.strong": {
+    "type": "color",
+    "argb": 4282335046,
+    "hex": "#FF3F3F46"
+  },
+  "color.canvas": {
+    "type": "color",
+    "argb": 4278782219,
+    "hex": "#FF09090B"
+  },
+  "color.effect.shadow.default": {
+    "type": "color",
+    "argb": 1711276032,
+    "hex": "#66000000"
+  },
+  "color.foreground.accent.secondary": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "color.foreground.icon.primary": {
+    "type": "color",
+    "argb": 4294638330,
+    "hex": "#FFFAFAFA"
+  },
+  "color.foreground.icon.secondary": {
+    "type": "color",
+    "argb": 4288782762,
+    "hex": "#FFA1A1AA"
+  },
+  "color.foreground.link.default": {
+    "type": "color",
+    "argb": 4279673674,
+    "hex": "#FF16A34A"
+  },
+  "color.foreground.text.disabled": {
+    "type": "color",
+    "argb": 4283585115,
+    "hex": "#FF52525B"
+  },
+  "color.foreground.text.primary": {
+    "type": "color",
+    "argb": 4294638330,
+    "hex": "#FFFAFAFA"
+  },
+  "color.foreground.text.secondary": {
+    "type": "color",
+    "argb": 4288782762,
+    "hex": "#FFA1A1AA"
+  },
+  "color.onAccent": {
+    "type": "color",
+    "argb": 4294967295,
+    "hex": "#FFFFFFFF"
+  },
+  "color.overlay.scrim": {
+    "type": "color",
+    "argb": 3003121664,
+    "hex": "#B3000000"
+  },
+  "color.status.danger.background": {
+    "type": "color",
+    "argb": 4280946448,
+    "hex": "#FF2A0F10"
+  },
+  "color.status.danger.border": {
+    "type": "color",
+    "argb": 4286520605,
+    "hex": "#FF7F1D1D"
+  },
+  "color.status.danger.foreground": {
+    "type": "color",
+    "argb": 4293870660,
+    "hex": "#FFEF4444"
+  },
+  "color.status.info.background": {
+    "type": "color",
+    "argb": 4279049006,
+    "hex": "#FF0D1B2E"
+  },
+  "color.status.info.border": {
+    "type": "color",
+    "argb": 4280172719,
+    "hex": "#FF1E40AF"
+  },
+  "color.status.info.foreground": {
+    "type": "color",
+    "argb": 4282090230,
+    "hex": "#FF3B82F6"
+  },
+  "color.status.success.background": {
+    "type": "color",
+    "argb": 4278984468,
+    "hex": "#FF0C1F14"
+  },
+  "color.status.success.border": {
+    "type": "color",
+    "argb": 4279522093,
+    "hex": "#FF14532D"
+  },
+  "color.status.success.foreground": {
+    "type": "color",
+    "argb": 4280468830,
+    "hex": "#FF22C55E"
+  },
+  "color.status.warning.background": {
+    "type": "color",
+    "argb": 4280556037,
+    "hex": "#FF241A05"
+  },
+  "color.status.warning.border": {
+    "type": "color",
+    "argb": 4286067983,
+    "hex": "#FF78350F"
+  },
+  "color.status.warning.foreground": {
+    "type": "color",
+    "argb": 4294286859,
+    "hex": "#FFF59E0B"
+  },
+  "color.surface": {
+    "type": "color",
+    "argb": 4278782219,
+    "hex": "#FF09090B"
+  },
+  "radii.control.button": {
+    "type": "dimension",
+    "value": 2.0
+  },
+  "radii.control.default": {
+    "type": "dimension",
+    "value": 2.0
+  },
+  "radii.control.input": {
+    "type": "dimension",
+    "value": 2.0
+  },
+  "radii.shape.avatar": {
+    "type": "dimension",
+    "value": 9999.0
+  },
+  "radii.shape.none": {
+    "type": "dimension",
+    "value": 0.0
+  },
+  "radii.shape.pill": {
+    "type": "dimension",
+    "value": 9999.0
+  },
+  "radii.surface.card": {
+    "type": "dimension",
+    "value": 8.0
+  },
+  "radii.surface.dialog": {
+    "type": "dimension",
+    "value": 4.0
+  },
+  "radii.surface.popover": {
+    "type": "dimension",
+    "value": 4.0
+  },
+  "size.avatar.compact": {
+    "type": "dimension",
+    "value": 32.0
+  },
+  "size.avatar.default": {
+    "type": "dimension",
+    "value": 40.0
+  },
+  "size.avatar.large": {
+    "type": "dimension",
+    "value": 48.0
+  },
+  "size.control.height.compact": {
+    "type": "dimension",
+    "value": 32.0
+  },
+  "size.control.height.default": {
+    "type": "dimension",
+    "value": 36.0
+  },
+  "size.control.height.large": {
+    "type": "dimension",
+    "value": 40.0
+  },
+  "size.icon.action": {
+    "type": "dimension",
+    "value": 16.0
+  },
+  "size.icon.decorative": {
+    "type": "dimension",
+    "value": 24.0
+  },
+  "size.icon.default": {
+    "type": "dimension",
+    "value": 20.0
+  },
+  "size.icon.inline": {
+    "type": "dimension",
+    "value": 16.0
+  },
+  "size.icon.navigation": {
+    "type": "dimension",
+    "value": 18.0
+  },
+  "size.icon.status": {
+    "type": "dimension",
+    "value": 16.0
+  },
+  "size.indicator.dot": {
+    "type": "dimension",
+    "value": 8.0
+  },
+  "size.target.pointer.minimum": {
+    "type": "dimension",
+    "value": 24.0
+  },
+  "size.target.touch.minimum": {
+    "type": "dimension",
+    "value": 44.0
+  },
+  "spacing.gutter.grid": {
+    "type": "dimension",
+    "value": 16.0
+  },
+  "spacing.gutter.page": {
+    "type": "dimension",
+    "value": 32.0
+  },
+  "spacing.inline.actions": {
+    "type": "dimension",
+    "value": 8.0
+  },
+  "spacing.inline.icon-label": {
+    "type": "dimension",
+    "value": 8.0
+  },
+  "spacing.inset.card": {
+    "type": "dimension",
+    "value": 24.0
+  },
+  "spacing.inset.control": {
+    "type": "dimension",
+    "value": 12.0
+  },
+  "spacing.inset.default": {
+    "type": "dimension",
+    "value": 16.0
+  },
+  "spacing.inset.dialog": {
+    "type": "dimension",
+    "value": 24.0
+  },
+  "spacing.stack.default": {
+    "type": "dimension",
+    "value": 8.0
+  },
+  "spacing.stack.label-content": {
+    "type": "dimension",
+    "value": 8.0
+  },
+  "spacing.stack.sections": {
+    "type": "dimension",
+    "value": 24.0
+  }
+}

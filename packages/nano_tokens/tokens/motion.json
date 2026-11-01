@@ -1,0 +1,12 @@
+{
+  "$description": "Motion — durations (ms) and easing curves (cubic-bezier).",
+  "duration": {
+    "fast": { "$type": "duration", "$value": 120 },
+    "base": { "$type": "duration", "$value": 200 },
+    "slow": { "$type": "duration", "$value": 320 }
+  },
+  "ease": {
+    "standard": { "$type": "cubicBezier", "$value": [0.2, 0, 0, 1] },
+    "exit": { "$type": "cubicBezier", "$value": [0.3, 0, 1, 1] }
+  }
+}

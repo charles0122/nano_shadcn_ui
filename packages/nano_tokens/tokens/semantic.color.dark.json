@@ -1,0 +1,18 @@
+{
+  "$description": "Semantic color tokens — dark mode. Must define the same paths as light.",
+  "bg": {
+    "canvas": { "$value": "{gray.900}" },
+    "surface": { "$value": "{gray.900}" },
+    "raised": { "$value": "{gray.800}" }
+  },
+  "fg": {
+    "primary": { "$value": "{gray.0}" },
+    "muted": { "$value": "{gray.300}" },
+    "onAccent": { "$value": "{gray.0}" }
+  },
+  "accent": { "$value": "{brand.500}" },
+  "accentPressed": { "$value": "{brand.600}" },
+  "border": { "$value": "{gray.800}" },
+  "danger": { "$value": "{red.600}" },
+  "success": { "$value": "{green.600}" }
+}

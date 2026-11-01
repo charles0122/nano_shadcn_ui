@@ -1,0 +1,10 @@
+analyzer:
+  exclude:
+    - build/**
+  language:
+    strict-casts: true
+
+linter:
+  rules:
+    - always_declare_return_types
+    - prefer_single_quotes

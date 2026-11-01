@@ -1,0 +1,39 @@
+{
+  "$description": "shadcn yellow base color.",
+  "brand": {
+    "primary": {
+      "light": {
+        "$type": "color",
+        "$value": "#EAB308",
+        "$description": "Light-mode primary (--primary)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#EAB308",
+        "$description": "Dark-mode primary (--primary)."
+      }
+    },
+    "onPrimary": {
+      "light": {
+        "$type": "color",
+        "$value": "#18181B",
+        "$description": "Foreground on primary (--primary-foreground)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#18181B"
+      }
+    },
+    "ring": {
+      "light": {
+        "$type": "color",
+        "$value": "#EAB308",
+        "$description": "Focus ring (--ring)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#EAB308"
+      }
+    }
+  }
+}

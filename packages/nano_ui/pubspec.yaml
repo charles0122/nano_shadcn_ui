@@ -1,0 +1,19 @@
+name: nano_ui
+description: Token-first design system for Flutter — nano-scale tokens, macro-scale interfaces.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nano_tokens:
+    path: ../nano_tokens
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

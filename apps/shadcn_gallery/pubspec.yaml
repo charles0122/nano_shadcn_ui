@@ -1,0 +1,21 @@
+name: shadcn_gallery
+description: Gallery app replicating the shadcn/ui component set and themes
+  on top of the nano token pipeline.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nano_shadcn_ui:
+    path: ../../packages/nano_shadcn_ui
+
+flutter:
+  uses-material-design: false
+  assets:
+    - assets/tokens/

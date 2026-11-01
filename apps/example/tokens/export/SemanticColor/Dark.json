@@ -1,0 +1,602 @@
+{
+  "color": {
+    "canvas": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--color-canvas)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.neutral.950}",
+      "$description": "DTCG color.canvas; demo mapping.\nLight: {}\nDark: {}"
+    },
+    "surface": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--color-surface)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.neutral.850}",
+      "$description": "DTCG color.surface; demo mapping.\nLight: {}\nDark: {}"
+    },
+    "text": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--color-text)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.neutral.25}",
+      "$description": "DTCG color.text; demo mapping.\nLight: {}\nDark: {}"
+    },
+    "muted": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--color-muted)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.neutral.300}",
+      "$description": "DTCG color.muted; demo mapping.\nLight: {}\nDark: {}"
+    },
+    "accent": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--color-accent)"
+        }
+      },
+      "$type": "color",
+      "$value": "{brand.accentDark}",
+      "$description": "DTCG color.accent; demo mapping.\nLight: {}\nDark: {}"
+    },
+    "onAccent": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--color-onAccent)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.neutral.950}",
+      "$description": "DTCG color.onAccent; demo mapping.\nLight: {}\nDark: {}"
+    },
+    "background": {
+      "canvas": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--color-background-canvas)"
+          }
+        },
+        "$type": "color",
+        "$value": "{palette.neutral.950}",
+        "$description": "页面画布背景。"
+      },
+      "surface": {
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-background-surface-default)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.850}",
+          "$description": "默认承载表面背景。"
+        },
+        "subtle": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-background-surface-subtle)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.900}",
+          "$description": "低强调表面背景。"
+        }
+      }
+    },
+    "foreground": {
+      "text": {
+        "primary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-text-primary)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.25}",
+          "$description": "主要正文和标题前景。"
+        },
+        "secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-text-secondary)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.300}",
+          "$description": "次要说明文字前景。"
+        },
+        "disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-text-disabled)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.600}",
+          "$description": "禁用文字颜色，独立于整体图层透明度。"
+        }
+      },
+      "icon": {
+        "primary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-icon-primary)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.25}",
+          "$description": "主要界面图标前景。"
+        },
+        "secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-icon-secondary)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.300}",
+          "$description": "次要界面图标前景。"
+        }
+      },
+      "link": {
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-link-default)"
+            }
+          },
+          "$type": "color",
+          "$value": "{color.action.primary.background.default}",
+          "$description": "链接文字，复用品牌强调色。"
+        }
+      },
+      "accent": {
+        "secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-foreground-accent-secondary)",
+              "Android": "colorForegroundAccentSecondary",
+              "iOS": "colorForegroundAccentSecondary"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.secondaryDark}",
+          "$description": "装饰性辅助强调前景；Light/Dark 选择对应 Brand 辅色。示例数字使用此角色，业务状态仍使用 color/status/*。"
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "background": {
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--color-action-primary-background-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.accentDark}",
+            "$description": "主要操作默认背景，跟随 Brand 与 Light/Dark。"
+          }
+        },
+        "foreground": {
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--color-action-primary-foreground-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{palette.neutral.950}",
+            "$description": "主要操作背景上的文字和图标前景。"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-action-disabled-background)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.850}",
+          "$description": "禁用操作背景。"
+        },
+        "foreground": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-action-disabled-foreground)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.neutral.600}",
+          "$description": "禁用操作文字与图标前景。"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_COLOR"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--color-border-default)"
+          }
+        },
+        "$type": "color",
+        "$value": "{palette.neutral.600}",
+        "$description": "默认边框颜色，随 Light/Dark 切换。"
+      },
+      "focus": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_COLOR"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--color-border-focus)"
+          }
+        },
+        "$type": "color",
+        "$value": "{color.action.primary.background.default}",
+        "$description": "焦点边框颜色，复用语义强调色，跟随 Brand 和 Light/Dark。"
+      },
+      "strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_COLOR"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--color-border-strong)"
+          }
+        },
+        "$type": "color",
+        "$value": "{palette.neutral.300}",
+        "$description": "高强调分隔或边框。"
+      }
+    },
+    "overlay": {
+      "scrim": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--color-overlay-scrim)"
+          }
+        },
+        "$type": "color",
+        "$value": "{palette.black.alpha-401}",
+        "$description": "遮罩颜色，含 40% alpha，不再叠加整体透明度。"
+      }
+    },
+    "effect": {
+      "shadow": {
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-effect-shadow-default)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.black.alpha-32}",
+          "$description": "阴影颜色，Light alpha 12%，Dark alpha 32%。"
+        }
+      }
+    },
+    "status": {
+      "danger": {
+        "foreground": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-danger-foreground)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.red.300}",
+          "$description": "danger 状态的前景默认值。"
+        },
+        "background": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-danger-background)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.red.950}",
+          "$description": "danger 状态的背景默认值。"
+        },
+        "border": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-danger-border)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.red.300}",
+          "$description": "danger 状态的边框默认值。"
+        }
+      },
+      "success": {
+        "foreground": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-success-foreground)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.green.300}",
+          "$description": "success 状态的前景默认值。"
+        },
+        "background": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-success-background)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.green.950}",
+          "$description": "success 状态的背景默认值。"
+        },
+        "border": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-success-border)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.green.300}",
+          "$description": "success 状态的边框默认值。"
+        }
+      },
+      "warning": {
+        "foreground": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-warning-foreground)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.amber.200}",
+          "$description": "warning 状态的前景默认值。"
+        },
+        "background": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-warning-background)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.amber.950}",
+          "$description": "warning 状态的背景默认值。"
+        },
+        "border": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-warning-border)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.amber.200}",
+          "$description": "warning 状态的边框默认值。"
+        }
+      },
+      "info": {
+        "foreground": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-info-foreground)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.blue.300}",
+          "$description": "info 状态的前景默认值。"
+        },
+        "background": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-info-background)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.blue.950}",
+          "$description": "info 状态的背景默认值。"
+        },
+        "border": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--color-status-info-border)"
+            }
+          },
+          "$type": "color",
+          "$value": "{palette.blue.300}",
+          "$description": "info 状态的边框默认值。"
+        }
+      }
+    }
+  }
+}

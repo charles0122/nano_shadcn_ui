@@ -1,0 +1,18 @@
+{
+  "$description": "Semantic color tokens — light mode. Components only reference these.",
+  "bg": {
+    "canvas": { "$value": "{gray.0}" },
+    "surface": { "$value": "{gray.0}" },
+    "raised": { "$value": "{gray.100}" }
+  },
+  "fg": {
+    "primary": { "$value": "{gray.900}" },
+    "muted": { "$value": "{gray.500}" },
+    "onAccent": { "$value": "{gray.0}" }
+  },
+  "accent": { "$value": "{brand.500}" },
+  "accentPressed": { "$value": "{brand.600}" },
+  "border": { "$value": "{gray.300}" },
+  "danger": { "$value": "{red.600}" },
+  "success": { "$value": "{green.600}" }
+}

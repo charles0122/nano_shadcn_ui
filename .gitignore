@@ -1,0 +1,7 @@
+.dart_tool/
+build/
+dist/
+.fvm/
+.zcode/
+*.log
+.DS_Store

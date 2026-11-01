@@ -1,0 +1,15 @@
+name: nano_tokens
+description: DTCG design-token pipeline for the nano design system — parser, resolver and Dart codegen.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+resolution: workspace
+
+executables:
+  generate:
+
+dev_dependencies:
+  test: ^1.25.0

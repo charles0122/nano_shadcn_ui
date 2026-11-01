@@ -1,0 +1,333 @@
+{
+  "$description": "Mode-independent tokens: type scale, spacing, sizes, border widths, elevation, fixed shapes. shadcn/ui mapping.",
+  "DTCG.Type.Display.Hero": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 36,
+      "fontWeight": 700,
+      "lineHeight": 140,
+      "letterSpacing": -0.9
+    },
+    "$description": "DTCG.Type.Display.Hero"
+  },
+  "DTCG.Type.Display.Metric": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 30,
+      "fontWeight": 700,
+      "lineHeight": 136,
+      "letterSpacing": -0.75
+    },
+    "$description": "DTCG.Type.Display.Metric"
+  },
+  "DTCG.Type.Display.Compact": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 24,
+      "fontWeight": 600,
+      "lineHeight": 132,
+      "letterSpacing": -0.6
+    },
+    "$description": "DTCG.Type.Display.Compact"
+  },
+  "DTCG.Type.Heading.H1": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 36,
+      "fontWeight": 600,
+      "lineHeight": 140,
+      "letterSpacing": -0.9
+    },
+    "$description": "DTCG.Type.Heading.H1"
+  },
+  "DTCG.Type.Heading.H2": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 30,
+      "fontWeight": 600,
+      "lineHeight": 136,
+      "letterSpacing": -0.75
+    },
+    "$description": "DTCG.Type.Heading.H2"
+  },
+  "DTCG.Type.Heading.H3": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 24,
+      "fontWeight": 600,
+      "lineHeight": 132,
+      "letterSpacing": -0.6
+    },
+    "$description": "DTCG.Type.Heading.H3"
+  },
+  "DTCG.Type.Heading.H4": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 20,
+      "fontWeight": 600,
+      "lineHeight": 128,
+      "letterSpacing": -0.4
+    },
+    "$description": "DTCG.Type.Heading.H4"
+  },
+  "DTCG.Type.Heading.H5": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 18,
+      "fontWeight": 600,
+      "lineHeight": 128,
+      "letterSpacing": -0.3
+    },
+    "$description": "DTCG.Type.Heading.H5"
+  },
+  "DTCG.Type.Heading.H6": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 16,
+      "fontWeight": 600,
+      "lineHeight": 124,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Heading.H6"
+  },
+  "DTCG.Type.Body.Default": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 14,
+      "fontWeight": 400,
+      "lineHeight": 143,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Body.Default"
+  },
+  "DTCG.Type.Body.Reading": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 16,
+      "fontWeight": 400,
+      "lineHeight": 175,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Body.Reading"
+  },
+  "DTCG.Type.Body.Supporting": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 14,
+      "fontWeight": 400,
+      "lineHeight": 143,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Body.Supporting"
+  },
+  "DTCG.Type.Label.Action": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 14,
+      "fontWeight": 500,
+      "lineHeight": 143,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Label.Action"
+  },
+  "DTCG.Type.Label.Metadata": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 12,
+      "fontWeight": 500,
+      "lineHeight": 133,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Label.Metadata"
+  },
+  "DTCG.Type.Label.Navigation": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Geist",
+      "fontSize": 14,
+      "fontWeight": 500,
+      "lineHeight": 143,
+      "letterSpacing": 0
+    },
+    "$description": "DTCG.Type.Label.Navigation"
+  },
+  "spacing.inset.control": {
+    "$type": "dimension",
+    "$value": 12
+  },
+  "spacing.inset.card": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "spacing.inset.dialog": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "spacing.inset.default": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "spacing.stack.default": {
+    "$type": "dimension",
+    "$value": 8
+  },
+  "spacing.stack.label-content": {
+    "$type": "dimension",
+    "$value": 8
+  },
+  "spacing.stack.sections": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "spacing.inline.actions": {
+    "$type": "dimension",
+    "$value": 8
+  },
+  "spacing.inline.icon-label": {
+    "$type": "dimension",
+    "$value": 8
+  },
+  "spacing.gutter.page": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "spacing.gutter.grid": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "size.control.height.compact": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "size.control.height.default": {
+    "$type": "dimension",
+    "$value": 36
+  },
+  "size.control.height.large": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "size.avatar.compact": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "size.avatar.default": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "size.avatar.large": {
+    "$type": "dimension",
+    "$value": 48
+  },
+  "size.icon.default": {
+    "$type": "dimension",
+    "$value": 20
+  },
+  "size.icon.inline": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "size.icon.status": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "size.icon.action": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "size.icon.decorative": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "size.icon.navigation": {
+    "$type": "dimension",
+    "$value": 18
+  },
+  "size.indicator.dot": {
+    "$type": "dimension",
+    "$value": 8
+  },
+  "size.target.touch.minimum": {
+    "$type": "dimension",
+    "$value": 44
+  },
+  "size.target.pointer.minimum": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "border.width.control.default": {
+    "$type": "dimension",
+    "$value": 1
+  },
+  "border.width.control.focus": {
+    "$type": "dimension",
+    "$value": 2
+  },
+  "border.width.divider.default": {
+    "$type": "dimension",
+    "$value": 1
+  },
+  "border.width.surface.card": {
+    "$type": "dimension",
+    "$value": 1
+  },
+  "radii.shape.pill": {
+    "$type": "dimension",
+    "$value": 9999
+  },
+  "radii.shape.avatar": {
+    "$type": "dimension",
+    "$value": 9999
+  },
+  "radii.shape.none": {
+    "$type": "dimension",
+    "$value": 0
+  },
+  "Elevation.shadow.raised": {
+    "$type": "boxShadow",
+    "$value": {
+      "color": "#0D000000",
+      "x": 0.0,
+      "y": 1.0,
+      "blur": 2.0,
+      "spread": 0.0,
+      "inset": false
+    }
+  },
+  "Elevation.shadow.floating": {
+    "$type": "boxShadow",
+    "$value": {
+      "color": "#1A000000",
+      "x": 0.0,
+      "y": 4.0,
+      "blur": 6.0,
+      "spread": -1.0,
+      "inset": false
+    }
+  },
+  "Elevation.shadow.overlay": {
+    "$type": "boxShadow",
+    "$value": {
+      "color": "#1A000000",
+      "x": 0.0,
+      "y": 10.0,
+      "blur": 15.0,
+      "spread": -3.0,
+      "inset": false
+    }
+  }
+}

@@ -1,0 +1,1985 @@
+{
+  "palette": {
+    "neutral": {
+      "0": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-0)"
+          }
+        },
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "DTCG palette.neutral.0; demo mapping."
+      },
+      "25": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-25)"
+          }
+        },
+        "$type": "color",
+        "$value": "#f5f7fb",
+        "$description": "DTCG palette.neutral.25; demo mapping."
+      },
+      "50": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-50)"
+          }
+        },
+        "$type": "color",
+        "$value": "#f3f5f8",
+        "$description": "DTCG palette.neutral.50; demo mapping."
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-300)"
+          }
+        },
+        "$type": "color",
+        "$value": "#b8c3d0",
+        "$description": "DTCG palette.neutral.300; demo mapping."
+      },
+      "600": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-600)"
+          }
+        },
+        "$type": "color",
+        "$value": "#596574",
+        "$description": "DTCG palette.neutral.600; demo mapping."
+      },
+      "850": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-850)"
+          }
+        },
+        "$type": "color",
+        "$value": "#1b2430",
+        "$description": "DTCG palette.neutral.850; demo mapping."
+      },
+      "900": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-900)"
+          }
+        },
+        "$type": "color",
+        "$value": "#17212d",
+        "$description": "DTCG palette.neutral.900; demo mapping."
+      },
+      "950": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-neutral-950)"
+          }
+        },
+        "$type": "color",
+        "$value": "#10161e",
+        "$description": "DTCG palette.neutral.950; demo mapping."
+      }
+    },
+    "purple": {
+      "200": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-purple-200)"
+          }
+        },
+        "$type": "color",
+        "$value": "#d0bcff",
+        "$description": "DTCG palette.purple.200; demo mapping."
+      },
+      "600": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-purple-600)"
+          }
+        },
+        "$type": "color",
+        "$value": "#6750a4",
+        "$description": "DTCG palette.purple.600; demo mapping."
+      }
+    },
+    "orange": {
+      "200": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-orange-200)"
+          }
+        },
+        "$type": "color",
+        "$value": "#ffb77f",
+        "$description": "DTCG palette.orange.200; demo mapping."
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-orange-800)"
+          }
+        },
+        "$type": "color",
+        "$value": "#9b4a15",
+        "$description": "DTCG palette.orange.800; demo mapping."
+      }
+    },
+    "black": {
+      "alpha-12": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-black-alpha-12)"
+          }
+        },
+        "$type": "color",
+        "$value": "#0000001f",
+        "$description": "黑色，alpha 12%。透明度直接包含在颜色值内。"
+      },
+      "alpha-32": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-black-alpha-32)"
+          }
+        },
+        "$type": "color",
+        "$value": "#00000052",
+        "$description": "黑色，alpha 32%。透明度直接包含在颜色值内。"
+      },
+      "alpha-401": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-black-alpha-40)"
+          }
+        },
+        "$type": "color",
+        "$value": "#00000066",
+        "$description": "黑色，alpha 40%。透明度直接包含在颜色值内。"
+      }
+    },
+    "red": {
+      "50": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-red-50)"
+          }
+        },
+        "$type": "color",
+        "$value": "#fef2f2",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-red-300)"
+          }
+        },
+        "$type": "color",
+        "$value": "#fca5a5",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-red-700)"
+          }
+        },
+        "$type": "color",
+        "$value": "#b91c1c",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "950": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-red-950)"
+          }
+        },
+        "$type": "color",
+        "$value": "#450a0a",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      }
+    },
+    "green": {
+      "50": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-green-50)"
+          }
+        },
+        "$type": "color",
+        "$value": "#f0fdf4",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-green-300)"
+          }
+        },
+        "$type": "color",
+        "$value": "#86efac",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-green-700)"
+          }
+        },
+        "$type": "color",
+        "$value": "#15803d",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "950": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-green-950)"
+          }
+        },
+        "$type": "color",
+        "$value": "#052e16",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      }
+    },
+    "amber": {
+      "50": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-amber-50)"
+          }
+        },
+        "$type": "color",
+        "$value": "#fffbeb",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-amber-200)"
+          }
+        },
+        "$type": "color",
+        "$value": "#fde68a",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-amber-800)"
+          }
+        },
+        "$type": "color",
+        "$value": "#92400e",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "950": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-amber-950)"
+          }
+        },
+        "$type": "color",
+        "$value": "#451a03",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      }
+    },
+    "blue": {
+      "50": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-blue-50)"
+          }
+        },
+        "$type": "color",
+        "$value": "#eff6ff",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-blue-300)"
+          }
+        },
+        "$type": "color",
+        "$value": "#93c5fd",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-blue-700)"
+          }
+        },
+        "$type": "color",
+        "$value": "#1d4ed8",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      },
+      "950": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--palette-blue-950)"
+          }
+        },
+        "$type": "color",
+        "$value": "#172554",
+        "$description": "状态色默认基础值，可按品牌规范替换。"
+      }
+    }
+  },
+  "font-family": {
+    "preview": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-family-preview)"
+        }
+      },
+      "$type": "text",
+      "$value": "Inter",
+      "$description": "Inter is used only for the Figma preview. Runtime Latin families follow config/font-policy.json; Chinese follows the platform.\nValue: Inter is used only for the Figma preview. Runtime Latin families follow config/font-policy.json; Chinese follows the platform."
+    },
+    "noto-sans-sc": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-family-noto-sans-sc)"
+        }
+      },
+      "$type": "text",
+      "$value": "Noto Sans SC",
+      "$description": "DTCG font-family.noto-sans-sc; demo mapping."
+    },
+    "sf-pro": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-family-sf-pro)"
+        }
+      },
+      "$type": "text",
+      "$value": "SF Pro",
+      "$description": "DTCG font-family.sf-pro; demo mapping."
+    },
+    "roboto": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-family-roboto)"
+        }
+      },
+      "$type": "text",
+      "$value": "Roboto",
+      "$description": "DTCG font-family.roboto; demo mapping."
+    },
+    "noto-sans-jp": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-family-noto-sans-jp)"
+        }
+      },
+      "$type": "text",
+      "$value": "Noto Sans JP",
+      "$description": "DTCG font-family.noto-sans-jp; demo mapping."
+    },
+    "inter": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-family-preview)"
+        }
+      },
+      "$type": "text",
+      "$value": "Inter",
+      "$description": "DTCG font-family.preview; demo mapping."
+    },
+    "red-hat": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "text",
+      "$value": "Red Hat Display"
+    }
+  },
+  "space": {
+    "8": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--space-8)"
+        }
+      },
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "DTCG space.8; px = Flutter logical pixels.\nValue: {}"
+    },
+    "16": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--space-16)"
+        }
+      },
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "DTCG space.16; px = Flutter logical pixels.\nValue: {}"
+    },
+    "24": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--space-24)"
+        }
+      },
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "DTCG space.24; px = Flutter logical pixels.\nValue: {}"
+    }
+  },
+  "radius": {
+    "24": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radius-24)"
+        }
+      },
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "DTCG radius.24; px = Flutter logical pixels.\nValue: {}"
+    }
+  },
+  "font-size": {
+    "12": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-12)"
+        }
+      },
+      "$type": "number",
+      "$value": "12",
+      "$description": "DTCG font-size.12; px = Flutter logical pixels."
+    },
+    "14": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-14)"
+        }
+      },
+      "$type": "number",
+      "$value": "14",
+      "$description": "DTCG font-size.14; px = Flutter logical pixels."
+    },
+    "16": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-16)"
+        }
+      },
+      "$type": "number",
+      "$value": "16",
+      "$description": "DTCG font-size.16; px = Flutter logical pixels."
+    },
+    "17": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-17)"
+        }
+      },
+      "$type": "number",
+      "$value": "17",
+      "$description": "DTCG font-size.17; px = Flutter logical pixels."
+    },
+    "18": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-18)"
+        }
+      },
+      "$type": "number",
+      "$value": "18",
+      "$description": "DTCG font-size.18; px = Flutter logical pixels."
+    },
+    "20": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-20)"
+        }
+      },
+      "$type": "number",
+      "$value": "20",
+      "$description": "DTCG font-size.20; px = Flutter logical pixels."
+    },
+    "22": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-22)"
+        }
+      },
+      "$type": "number",
+      "$value": "22",
+      "$description": "DTCG font-size.22; px = Flutter logical pixels."
+    },
+    "24": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-24)"
+        }
+      },
+      "$type": "number",
+      "$value": "24",
+      "$description": "DTCG font-size.24; px = Flutter logical pixels."
+    },
+    "28": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-28)"
+        }
+      },
+      "$type": "number",
+      "$value": "28",
+      "$description": "DTCG font-size.28; px = Flutter logical pixels."
+    },
+    "32": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-32)"
+        }
+      },
+      "$type": "number",
+      "$value": "32",
+      "$description": "DTCG font-size.32; px = Flutter logical pixels."
+    },
+    "40": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-40)"
+        }
+      },
+      "$type": "number",
+      "$value": "40",
+      "$description": "DTCG font-size.40; px = Flutter logical pixels."
+    },
+    "48": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-48)"
+        }
+      },
+      "$type": "number",
+      "$value": "48",
+      "$description": "DTCG font-size.48; px = Flutter logical pixels."
+    },
+    "56": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-size-56)"
+        }
+      },
+      "$type": "number",
+      "$value": "56",
+      "$description": "DTCG font-size.56; px = Flutter logical pixels."
+    }
+  },
+  "font-weight": {
+    "400": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-weight-400)"
+        }
+      },
+      "$type": "number",
+      "$value": "400",
+      "$description": "DTCG font-weight.400; Numeric font weight."
+    },
+    "500": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-weight-500)"
+        }
+      },
+      "$type": "number",
+      "$value": "500",
+      "$description": "DTCG font-weight.500; Numeric font weight."
+    },
+    "600": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--font-weight-600)"
+        }
+      },
+      "$type": "number",
+      "$value": "600",
+      "$description": "DTCG font-weight.600; Numeric font weight."
+    }
+  },
+  "asset-source": {
+    "image": {
+      "illustration": {
+        "hero": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-image-illustration-hero)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：实际资源 URI 或注册表 ID；当前未关联素材。"
+        },
+        "empty-state": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-image-illustration-empty-state)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：资源 URI 或注册表 ID；当前未关联素材。"
+        }
+      },
+      "brand": {
+        "logo": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-image-brand-logo)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：资源 URI 或注册表 ID；当前未关联素材。"
+        }
+      },
+      "background": {
+        "default": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-image-background-default)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：资源 URI 或注册表 ID；当前未关联素材。"
+        }
+      }
+    },
+    "icon": {
+      "interface": {
+        "default": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-icon-interface-default)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：实际资源 URI 或注册表 ID；当前未关联素材。"
+        },
+        "close": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-icon-interface-close)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：资源 URI 或注册表 ID；当前未关联素材。"
+        }
+      }
+    },
+    "motion": {
+      "feedback": {
+        "loading": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-source-motion-feedback-loading)"
+            }
+          },
+          "$type": "text",
+          "$value": "",
+          "$description": "待配置：实际资源 URI 或注册表 ID；当前未关联素材。"
+        }
+      }
+    }
+  },
+  "border-style": {
+    "solid": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--border-style-solid)"
+        }
+      },
+      "$type": "text",
+      "$value": "solid",
+      "$description": "代码导出用边框线型。STRING 无法直接绑定 Figma 原生描边线型。"
+    }
+  },
+  "spacing": {
+    "0": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-0)"
+        }
+      },
+      "$type": "number",
+      "$value": "0",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    },
+    "4": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-4)"
+        }
+      },
+      "$type": "number",
+      "$value": "4",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    },
+    "8": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-8)"
+        }
+      },
+      "$type": "number",
+      "$value": "8",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    },
+    "12": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-12)"
+        }
+      },
+      "$type": "number",
+      "$value": "12",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    },
+    "16": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-16)"
+        }
+      },
+      "$type": "number",
+      "$value": "16",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    },
+    "24": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-24)"
+        }
+      },
+      "$type": "number",
+      "$value": "24",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    },
+    "32": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--spacing-32)"
+        }
+      },
+      "$type": "number",
+      "$value": "32",
+      "$description": "基础间距刻度，单位 px（Flutter logical pixels）。"
+    }
+  },
+  "radii": {
+    "0": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-0)"
+        }
+      },
+      "$type": "number",
+      "$value": "0",
+      "$description": "基础圆角刻度，单位 px；full = 9999，用于胶囊和圆形。"
+    },
+    "4": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-4)"
+        }
+      },
+      "$type": "number",
+      "$value": "4",
+      "$description": "基础圆角刻度，单位 px。"
+    },
+    "8": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-8)"
+        }
+      },
+      "$type": "number",
+      "$value": "8",
+      "$description": "基础圆角刻度，单位 px；full = 9999，用于胶囊和圆形。"
+    },
+    "12": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-12)"
+        }
+      },
+      "$type": "number",
+      "$value": "12",
+      "$description": "基础圆角刻度，单位 px。"
+    },
+    "16": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-16)"
+        }
+      },
+      "$type": "number",
+      "$value": "16",
+      "$description": "基础圆角刻度，单位 px；full = 9999，用于胶囊和圆形。"
+    },
+    "24": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-24)"
+        }
+      },
+      "$type": "number",
+      "$value": "24",
+      "$description": "基础圆角刻度，单位 px；full = 9999，用于胶囊和圆形。"
+    },
+    "full": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--radii-full)"
+        }
+      },
+      "$type": "number",
+      "$value": "9999",
+      "$description": "基础圆角刻度，单位 px；full = 9999，用于胶囊和圆形。"
+    }
+  },
+  "compatibility": {
+    "line-height": {
+      "px": {
+        "18": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-18)"
+            }
+          },
+          "$type": "number",
+          "$value": "18",
+          "$description": "兼容旧的固定行高 18 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "20": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-20)"
+            }
+          },
+          "$type": "number",
+          "$value": "20",
+          "$description": "兼容旧的固定行高 20 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "22": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-22)"
+            }
+          },
+          "$type": "number",
+          "$value": "22",
+          "$description": "兼容旧的固定行高 22 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "24": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-24)"
+            }
+          },
+          "$type": "number",
+          "$value": "24",
+          "$description": "兼容旧的固定行高 24 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "26": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-26)"
+            }
+          },
+          "$type": "number",
+          "$value": "26",
+          "$description": "兼容旧的固定行高 26 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "28": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-28)"
+            }
+          },
+          "$type": "number",
+          "$value": "28",
+          "$description": "兼容旧的固定行高 28 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "32": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-32)"
+            }
+          },
+          "$type": "number",
+          "$value": "32",
+          "$description": "兼容旧的固定行高 32 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "36": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-36)"
+            }
+          },
+          "$type": "number",
+          "$value": "36",
+          "$description": "兼容旧的固定行高 36 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "40": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-40)"
+            }
+          },
+          "$type": "number",
+          "$value": "40",
+          "$description": "兼容旧的固定行高 40 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "48": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-48)"
+            }
+          },
+          "$type": "number",
+          "$value": "48",
+          "$description": "兼容旧的固定行高 48 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "56": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-56)"
+            }
+          },
+          "$type": "number",
+          "$value": "56",
+          "$description": "兼容旧的固定行高 56 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        },
+        "64": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--line-height-64)"
+            }
+          },
+          "$type": "number",
+          "$value": "64",
+          "$description": "兼容旧的固定行高 64 px。新设计使用 Global/line-height/percent 与 SemanticTypography 的百分比行高。"
+        }
+      }
+    }
+  },
+  "letter-spacing": {
+    "0": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--letter-spacing-0)"
+        }
+      },
+      "$type": "number",
+      "$value": "0",
+      "$description": "DTCG letter-spacing.0; px = Flutter logical pixels."
+    }
+  },
+  "size": {
+    "8": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--size-8)"
+        }
+      },
+      "$type": "number",
+      "$value": "8",
+      "$description": "基础尺寸，单位 px。"
+    },
+    "16": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--size-16)"
+        }
+      },
+      "$type": "number",
+      "$value": "16",
+      "$description": "基础尺寸，单位 px。"
+    },
+    "24": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--size-24)"
+        }
+      },
+      "$type": "number",
+      "$value": "24",
+      "$description": "基础尺寸，单位 px。"
+    },
+    "32": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--size-32)"
+        }
+      },
+      "$type": "number",
+      "$value": "32",
+      "$description": "基础尺寸，单位 px。"
+    },
+    "40": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--size-40)"
+        }
+      },
+      "$type": "number",
+      "$value": "40",
+      "$description": "基础尺寸，单位 px。"
+    },
+    "48": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--size-48)"
+        }
+      },
+      "$type": "number",
+      "$value": "48",
+      "$description": "基础尺寸，单位 px。"
+    }
+  },
+  "border-width": {
+    "0": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--border-width-0)"
+        }
+      },
+      "$type": "number",
+      "$value": "0",
+      "$description": "无边框，0 px。"
+    },
+    "1": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--border-width-1)"
+        }
+      },
+      "$type": "number",
+      "$value": "1",
+      "$description": "基础边框宽度，单位 px。"
+    },
+    "2": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--border-width-2)"
+        }
+      },
+      "$type": "number",
+      "$value": "2",
+      "$description": "基础边框宽度，单位 px。"
+    }
+  },
+  "opacity": {
+    "0": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--opacity-0)"
+        }
+      },
+      "$type": "number",
+      "$value": "0",
+      "$description": "整体图层透明度，0–1。"
+    },
+    "40": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--opacity-40)"
+        }
+      },
+      "$type": "number",
+      "$value": "0.4",
+      "$description": "整体图层透明度比例，0–1。颜色自身 alpha 留在颜色变量中。"
+    },
+    "50": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--opacity-50)"
+        }
+      },
+      "$type": "number",
+      "$value": "0.5",
+      "$description": "整体图层透明度比例，0–1。颜色自身 alpha 留在颜色变量中。"
+    },
+    "100": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--opacity-100)"
+        }
+      },
+      "$type": "number",
+      "$value": "1",
+      "$description": "整体图层透明度，0–1。"
+    }
+  },
+  "shadow": {
+    "offset": {
+      "0": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-offset-0)"
+          }
+        },
+        "$type": "number",
+        "$value": "0",
+        "$description": "阴影偏移，单位 px。"
+      },
+      "2": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-offset-2)"
+          }
+        },
+        "$type": "number",
+        "$value": "2",
+        "$description": "阴影偏移，单位 px。"
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-offset-4)"
+          }
+        },
+        "$type": "number",
+        "$value": "4",
+        "$description": "阴影偏移，单位 px。"
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-offset-8)"
+          }
+        },
+        "$type": "number",
+        "$value": "8",
+        "$description": "阴影偏移，单位 px。"
+      }
+    },
+    "blur": {
+      "8": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-blur-8)"
+          }
+        },
+        "$type": "number",
+        "$value": "8",
+        "$description": "阴影模糊半径，单位 px。"
+      },
+      "16": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-blur-16)"
+          }
+        },
+        "$type": "number",
+        "$value": "16",
+        "$description": "阴影模糊半径，单位 px。"
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--shadow-blur-24)"
+          }
+        },
+        "$type": "number",
+        "$value": "24",
+        "$description": "阴影模糊半径，单位 px。"
+      }
+    }
+  },
+  "line-height": {
+    "percent": {
+      "120": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-120)"
+          }
+        },
+        "$type": "number",
+        "$value": "120",
+        "$description": "行高百分比：120%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "125": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-125)"
+          }
+        },
+        "$type": "number",
+        "$value": "125",
+        "$description": "行高百分比：125%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "140": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-140)"
+          }
+        },
+        "$type": "number",
+        "$value": "140",
+        "$description": "行高百分比：140%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "150": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-150)"
+          }
+        },
+        "$type": "number",
+        "$value": "150",
+        "$description": "行高百分比：150%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "114-285714": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-114-285714)"
+          }
+        },
+        "$type": "number",
+        "$value": "114.286",
+        "$description": "行高百分比：114.285714%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "116-666667": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-116-666667)"
+          }
+        },
+        "$type": "number",
+        "$value": "116.667",
+        "$description": "行高百分比：116.666667%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "128-571429": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-128-571429)"
+          }
+        },
+        "$type": "number",
+        "$value": "128.571",
+        "$description": "行高百分比：128.571429%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "133-333333": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-133-333333)"
+          }
+        },
+        "$type": "number",
+        "$value": "133.333",
+        "$description": "行高百分比：133.333333%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "127-272727": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-127-272727)"
+          }
+        },
+        "$type": "number",
+        "$value": "127.273",
+        "$description": "行高百分比：127.272727%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "152-941176": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-152-941176)"
+          }
+        },
+        "$type": "number",
+        "$value": "152.941",
+        "$description": "行高百分比：152.941176%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "157-142857": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-157-142857)"
+          }
+        },
+        "$type": "number",
+        "$value": "157.143",
+        "$description": "行高百分比：157.142857%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      },
+      "142-857143": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--line-height-percent-142-857143)"
+          }
+        },
+        "$type": "number",
+        "$value": "142.857",
+        "$description": "行高百分比：142.857143%，相对于字号。FLOAT 无原生单位；文本样式使用 PERCENT，避免直接绑定成 px。"
+      }
+    }
+  },
+  "Elevation": {
+    "shadow": {
+      "raised": {
+        "$type": "boxShadow",
+        "$value": {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "8",
+          "spread": "0"
+        },
+        "$description": "语义 raised 阴影；参数绑定 SemanticElevation/elevation/shadow/raised，颜色绑定 SemanticColor/color/effect/shadow/default。"
+      },
+      "overlay": {
+        "$type": "boxShadow",
+        "$value": {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "8",
+          "blur": "24",
+          "spread": "0"
+        },
+        "$description": "语义 overlay 阴影；参数绑定 SemanticElevation/elevation/shadow/overlay，颜色绑定 SemanticColor/color/effect/shadow/default。"
+      },
+      "floating": {
+        "$type": "boxShadow",
+        "$value": {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0"
+        },
+        "$description": "浮动面板阴影；参数及颜色均绑定语义变量。"
+      }
+    }
+  },
+  "lineHeights": {
+    "0": {
+      "$type": "lineHeights",
+      "$value": "150%"
+    },
+    "1": {
+      "$type": "lineHeights",
+      "$value": "150%"
+    },
+    "2": {
+      "$type": "lineHeights",
+      "$value": "125%"
+    },
+    "3": {
+      "$type": "lineHeights",
+      "$value": "125%"
+    },
+    "4": {
+      "$type": "lineHeights",
+      "$value": "114.29%"
+    },
+    "5": {
+      "$type": "lineHeights",
+      "$value": "116.67%"
+    },
+    "6": {
+      "$type": "lineHeights",
+      "$value": "120%"
+    },
+    "7": {
+      "$type": "lineHeights",
+      "$value": "125%"
+    },
+    "8": {
+      "$type": "lineHeights",
+      "$value": "128.57%"
+    },
+    "9": {
+      "$type": "lineHeights",
+      "$value": "133.33%"
+    },
+    "10": {
+      "$type": "lineHeights",
+      "$value": "127.27%"
+    },
+    "11": {
+      "$type": "lineHeights",
+      "$value": "140%"
+    },
+    "12": {
+      "$type": "lineHeights",
+      "$value": "133.33%"
+    },
+    "13": {
+      "$type": "lineHeights",
+      "$value": "152.94%"
+    },
+    "14": {
+      "$type": "lineHeights",
+      "$value": "150%"
+    },
+    "15": {
+      "$type": "lineHeights",
+      "$value": "157.14%"
+    },
+    "16": {
+      "$type": "lineHeights",
+      "$value": "150%"
+    },
+    "17": {
+      "$type": "lineHeights",
+      "$value": "142.86%"
+    },
+    "18": {
+      "$type": "lineHeights",
+      "$value": "150%"
+    }
+  },
+  "fontWeights": {
+    "noto-sans-sc-0": {
+      "$type": "fontWeights",
+      "$value": "Regular"
+    },
+    "sf-pro-1": {
+      "$type": "fontWeights",
+      "$value": "Regular"
+    },
+    "sf-pro-2": {
+      "$type": "fontWeights",
+      "$value": "Semibold"
+    },
+    "noto-sans-sc-3": {
+      "$type": "fontWeights",
+      "$value": "Medium"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "$type": "fontSizes",
+      "$value": "12"
+    },
+    "1": {
+      "$type": "fontSizes",
+      "$value": "14"
+    },
+    "2": {
+      "$type": "fontSizes",
+      "$value": "16"
+    },
+    "3": {
+      "$type": "fontSizes",
+      "$value": "17"
+    },
+    "4": {
+      "$type": "fontSizes",
+      "$value": "18"
+    },
+    "5": {
+      "$type": "fontSizes",
+      "$value": "20"
+    },
+    "6": {
+      "$type": "fontSizes",
+      "$value": "22"
+    },
+    "7": {
+      "$type": "fontSizes",
+      "$value": "24"
+    },
+    "8": {
+      "$type": "fontSizes",
+      "$value": "28"
+    },
+    "9": {
+      "$type": "fontSizes",
+      "$value": "32"
+    },
+    "10": {
+      "$type": "fontSizes",
+      "$value": "40"
+    },
+    "11": {
+      "$type": "fontSizes",
+      "$value": "48"
+    },
+    "12": {
+      "$type": "fontSizes",
+      "$value": "56"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "$type": "letterSpacing",
+      "$value": "0"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "$type": "paragraphSpacing",
+      "$value": "0"
+    }
+  },
+  "DTCG": {
+    "Font specimen": {
+      "Body": {
+        "Zh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{platform.font-family.zh-Hans}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.0}",
+            "fontSize": "{fontSize.2}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "Fixed Chinese font specimen; locale role styles live under DTCG/Type."
+        },
+        "Latin": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{brand.font-family.latin}",
+            "fontWeight": "{fontWeights.sf-pro-1}",
+            "lineHeight": "{lineHeights.0}",
+            "fontSize": "{fontSize.2}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "Fixed Latin font specimen; locale role styles live under DTCG/Type."
+        }
+      },
+      "Heading": {
+        "Zh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{platform.font-family.zh-Hans}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.2}",
+            "fontSize": "{fontSize.9}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "Fixed Chinese font specimen; locale role styles live under DTCG/Type."
+        },
+        "Latin": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{brand.font-family.latin}",
+            "fontWeight": "{fontWeights.sf-pro-2}",
+            "lineHeight": "{lineHeights.2}",
+            "fontSize": "{fontSize.9}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "Fixed Latin font specimen; locale role styles live under DTCG/Type."
+        }
+      }
+    },
+    "Type": {
+      "Display": {
+        "Metric": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-3}",
+            "lineHeight": "{lineHeights.4}",
+            "fontSize": "{fontSize.12}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "关键数值展示。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "Hero": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-3}",
+            "lineHeight": "{lineHeights.5}",
+            "fontSize": "{fontSize.11}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "展示标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "Compact": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-3}",
+            "lineHeight": "{lineHeights.6}",
+            "fontSize": "{fontSize.10}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "Display Compact：40px 字号、120% 行高，使用正式 SemanticTypography/typography/display/compact 变量。"
+        }
+      },
+      "Heading": {
+        "H1": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.2}",
+            "fontSize": "{fontSize.9}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "页面主标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "H2": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.8}",
+            "fontSize": "{fontSize.8}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "章节标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "H3": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.9}",
+            "fontSize": "{fontSize.7}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "小节标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "H4": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.10}",
+            "fontSize": "{fontSize.6}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "卡片标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "H5": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.11}",
+            "fontSize": "{fontSize.5}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "分组标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "H6": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.9}",
+            "fontSize": "{fontSize.4}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "条目标题。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        }
+      },
+      "Body": {
+        "Reading": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.13}",
+            "fontSize": "{fontSize.3}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "阅读正文。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "Default": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.0}",
+            "fontSize": "{fontSize.2}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "常规正文。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "Supporting": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-0}",
+            "lineHeight": "{lineHeights.15}",
+            "fontSize": "{fontSize.1}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "辅助说明。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        }
+      },
+      "Label": {
+        "Action": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-3}",
+            "lineHeight": "{lineHeights.0}",
+            "fontSize": "{fontSize.2}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "按钮与操作文字。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "Navigation": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-3}",
+            "lineHeight": "{lineHeights.17}",
+            "fontSize": "{fontSize.1}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "导航标签。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        },
+        "Metadata": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{typography.display.metric.font-family}",
+            "fontWeight": "{fontWeights.noto-sans-sc-3}",
+            "lineHeight": "{lineHeights.0}",
+            "fontSize": "{fontSize.0}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "$description": "短小的次要标注，不承载重要正文。用于设计层级，不自动等同 HTML 标题或原生系统文本样式。"
+        }
+      }
+    }
+  },
+  "textCase": {
+    "none": {
+      "$type": "textCase",
+      "$value": "none"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "$type": "textDecoration",
+      "$value": "none"
+    }
+  },
+  "paragraphIndent": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px"
+    }
+  },
+  "typography": {
+    "display": {
+      "metric": {
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "Noto Sans SC"
+        }
+      }
+    }
+  }
+}

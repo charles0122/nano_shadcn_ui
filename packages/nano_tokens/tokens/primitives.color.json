@@ -1,0 +1,21 @@
+{
+  "$description": "Raw palette — primitives are never referenced by components directly.",
+  "gray": {
+    "0": { "$type": "color", "$value": "#FFFFFF" },
+    "100": { "$type": "color", "$value": "#F2F4F7" },
+    "300": { "$type": "color", "$value": "#D0D5DD" },
+    "500": { "$type": "color", "$value": "#667085" },
+    "800": { "$type": "color", "$value": "#1D2939" },
+    "900": { "$type": "color", "$value": "#101828" }
+  },
+  "brand": {
+    "500": { "$type": "color", "$value": "#5B5BD6" },
+    "600": { "$type": "color", "$value": "#4A4AC4" }
+  },
+  "green": {
+    "600": { "$type": "color", "$value": "#039855" }
+  },
+  "red": {
+    "600": { "$type": "color", "$value": "#D92D20" }
+  }
+}

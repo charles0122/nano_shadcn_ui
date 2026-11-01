@@ -1,0 +1,12 @@
+{
+  "keyHealthAlertCause": {
+    "$extensions": {
+      "com.figma.scopes": [
+        "TEXT_CONTENT"
+      ],
+      "com.figma.hiddenFromPublishing": false
+    },
+    "$type": "text",
+    "$value": "Possible Reasons"
+  }
+}

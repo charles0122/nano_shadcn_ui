@@ -1,0 +1,370 @@
+{
+  "source": "apps/shadcn_gallery/tokens/export",
+  "sets": [
+    "Brand/Blue",
+    "Brand/Green",
+    "Brand/Orange",
+    "Brand/Red",
+    "Brand/Rose",
+    "Brand/Violet",
+    "Brand/Yellow",
+    "Brand/Zinc",
+    "Global/Value",
+    "SemanticColor/Dark",
+    "SemanticColor/Light",
+    "SemanticRadii/R000",
+    "SemanticRadii/R025",
+    "SemanticRadii/R050",
+    "SemanticRadii/R075",
+    "SemanticRadii/R100"
+  ],
+  "unboundSets": [
+    "Global/Value"
+  ],
+  "groups": {
+    "Brand": [
+      "Zinc",
+      "Red",
+      "Rose",
+      "Orange",
+      "Green",
+      "Blue",
+      "Yellow",
+      "Violet"
+    ],
+    "SemanticColor": [
+      "Light",
+      "Dark"
+    ],
+    "SemanticRadii": [
+      "R000",
+      "R025",
+      "R050",
+      "R075",
+      "R100"
+    ]
+  },
+  "combinations": [
+    {
+      "name": "Zinc+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Zinc+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Red+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Rose+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Orange+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Green+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Blue+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Yellow+Dark+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Light+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Light+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Light+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Light+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Light+R100",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Dark+R000",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Dark+R025",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Dark+R050",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Dark+R075",
+      "tokens": 96
+    },
+    {
+      "name": "Violet+Dark+R100",
+      "tokens": 96
+    }
+  ],
+  "failed": []
+}

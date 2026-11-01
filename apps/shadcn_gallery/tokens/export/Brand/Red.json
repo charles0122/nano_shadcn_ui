@@ -1,0 +1,39 @@
+{
+  "$description": "shadcn red base color.",
+  "brand": {
+    "primary": {
+      "light": {
+        "$type": "color",
+        "$value": "#DC2626",
+        "$description": "Light-mode primary (--primary)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#DC2626",
+        "$description": "Dark-mode primary (--primary)."
+      }
+    },
+    "onPrimary": {
+      "light": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Foreground on primary (--primary-foreground)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "ring": {
+      "light": {
+        "$type": "color",
+        "$value": "#DC2626",
+        "$description": "Focus ring (--ring)."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#DC2626"
+      }
+    }
+  }
+}

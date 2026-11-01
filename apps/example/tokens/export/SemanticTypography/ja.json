@@ -1,0 +1,1077 @@
+{
+  "typography": {
+    "display": {
+      "metric": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-metric-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "关键数值展示；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-metric-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.56}",
+          "$description": "关键数值展示；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-metric-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.500}",
+          "$description": "关键数值展示；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-metric-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.114-285714}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-metric-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "关键数值展示；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "hero": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-hero-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "展示标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-hero-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.48}",
+          "$description": "展示标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-hero-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.500}",
+          "$description": "展示标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-hero-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.116-666667}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-hero-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "展示标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "compact": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-compact-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "紧凑展示文字的 font-family；正式 Display Compact 角色。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-compact-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.40}",
+          "$description": "紧凑展示文字的 font-size；正式 Display Compact 角色。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-compact-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.500}",
+          "$description": "紧凑展示文字的 font-weight；正式 Display Compact 角色。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-compact-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.120}",
+          "$description": "紧凑展示文字行高，120%；文本样式使用 PERCENT，不直接绑定 px。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": true,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-display-compact-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "紧凑展示文字的 letter-spacing；正式 Display Compact 角色。"
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h1-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "页面主标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h1-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.32}",
+          "$description": "页面主标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h1-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.600}",
+          "$description": "页面主标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h1-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.125}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h1-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "页面主标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "h2": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h2-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "章节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h2-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.28}",
+          "$description": "章节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h2-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.600}",
+          "$description": "章节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h2-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.128-571429}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h2-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "章节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "h3": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h3-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "小节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h3-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.24}",
+          "$description": "小节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h3-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.600}",
+          "$description": "小节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h3-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.133-333333}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h3-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "小节标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "h4": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h4-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "卡片标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h4-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.22}",
+          "$description": "卡片标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h4-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.600}",
+          "$description": "卡片标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h4-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.127-272727}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h4-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "卡片标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "h5": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h5-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "分组标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h5-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.20}",
+          "$description": "分组标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h5-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.600}",
+          "$description": "分组标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h5-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.140}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h5-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "分组标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "h6": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h6-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "条目标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h6-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.18}",
+          "$description": "条目标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h6-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.600}",
+          "$description": "条目标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h6-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.133-333333}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-heading-h6-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "条目标题；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      }
+    },
+    "body": {
+      "reading": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-reading-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "阅读正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-reading-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.17}",
+          "$description": "阅读正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-reading-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.400}",
+          "$description": "阅读正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-reading-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.152-941176}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-reading-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "阅读正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "paragraph-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-reading-paragraph-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{spacing.16}",
+          "$description": "正文 reading 段落间距，默认 16 px；保留现有语言模式。"
+        }
+      },
+      "default": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-default-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "常规正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-default-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.16}",
+          "$description": "常规正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-default-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.400}",
+          "$description": "常规正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-default-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.150}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-default-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "常规正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "paragraph-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-default-paragraph-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{spacing.8}",
+          "$description": "正文 default 段落间距，默认 8 px；保留现有语言模式。"
+        }
+      },
+      "supporting": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-supporting-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "辅助说明；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-supporting-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.14}",
+          "$description": "辅助说明；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-supporting-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.400}",
+          "$description": "辅助说明；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-supporting-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.157-142857}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-supporting-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "辅助说明；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "paragraph-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "PARAGRAPH_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-body-supporting-paragraph-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{spacing.4}",
+          "$description": "正文 supporting 段落间距，默认 4 px；保留现有语言模式。"
+        }
+      }
+    },
+    "label": {
+      "action": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-action-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "按钮与操作文字；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-action-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.16}",
+          "$description": "按钮与操作文字；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-action-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.500}",
+          "$description": "按钮与操作文字；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-action-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.150}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-action-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "按钮与操作文字；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "navigation": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-navigation-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "导航标签；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-navigation-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.14}",
+          "$description": "导航标签；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-navigation-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.500}",
+          "$description": "导航标签；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-navigation-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.142-857143}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-navigation-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "导航标签；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      },
+      "metadata": {
+        "font-family": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-metadata-font-family)"
+            }
+          },
+          "$type": "text",
+          "$value": "{platform.font-family.ja}",
+          "$description": "短小的次要标注，不承载重要正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-size": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-metadata-font-size)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-size.12}",
+          "$description": "短小的次要标注，不承载重要正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "font-weight": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-metadata-font-weight)"
+            }
+          },
+          "$type": "number",
+          "$value": "{font-weight.500}",
+          "$description": "短小的次要标注，不承载重要正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        },
+        "line-height": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-metadata-line-height)"
+            }
+          },
+          "$type": "number",
+          "$value": "{line-height.percent.150}",
+          "$description": "语义行高百分比，相对于同角色 font-size；数值 150 表示 150%。对应文本样式采用 PERCENT。Figma 原生变量绑定会强制使用 px，故不直接绑定 lineHeight。"
+        },
+        "letter-spacing": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--typography-label-metadata-letter-spacing)"
+            }
+          },
+          "$type": "number",
+          "$value": "{letter-spacing.0}",
+          "$description": "短小的次要标注，不承载重要正文；设计字阶角色，H1–H6 表示标题层级。四个语言 Mode 与原有数值、跨集合引用保持一致。"
+        }
+      }
+    }
+  }
+}

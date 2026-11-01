@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nano_ui example</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script>
+    // Capture engine startup errors before the loader runs.
+    window.__errs = [];
+    window.addEventListener('error', (e) =>
+      window.__errs.push('error: ' + e.message + ' @' + (e.filename || '') + ':' + (e.lineno || '')));
+    window.addEventListener('unhandledrejection', (e) =>
+      window.__errs.push('rejection: ' + (e.reason && (e.reason.message || String(e.reason)) || 'unknown')));
+    const __origErr = console.error.bind(console);
+    console.error = (...args) => {
+      window.__errs.push('console.error: ' + args.map((a) => String((a && a.message) || a).slice(0, 400)).join(' '));
+      __origErr(...args);
+    };
+  </script>
+  <script>
+    {{flutter_js}}
+    {{flutter_build_config}}
+    _flutter.loader.load({
+      config: {
+        // Serve the CanvasKit renderer from the app bundle instead of
+        // www.gstatic.com, so the app works on networks without Google access.
+        canvasKitBaseUrl: "/canvaskit/",
+      },
+    });
+  </script>
+</body>
+</html>

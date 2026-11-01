@@ -1,0 +1,230 @@
+{
+  "size": {
+    "icon": {
+      "inline": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-icon-inline)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.16}",
+        "$description": "语义尺寸：icon/inline，单位 px。"
+      },
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-icon-default)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.24}",
+        "$description": "语义尺寸：icon/default，单位 px。"
+      },
+      "action": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-icon-action)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.24}",
+        "$description": "语义尺寸：icon/action，默认 24 px。"
+      },
+      "navigation": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-icon-navigation)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.24}",
+        "$description": "语义尺寸：icon/navigation，默认 24 px。"
+      },
+      "status": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-icon-status)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.16}",
+        "$description": "语义尺寸：icon/status，默认 16 px。"
+      },
+      "decorative": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-icon-decorative)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.32}",
+        "$description": "语义尺寸：icon/decorative，默认 32 px。"
+      }
+    },
+    "control": {
+      "height": {
+        "compact": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--size-control-height-compact)"
+            }
+          },
+          "$type": "number",
+          "$value": "{size.32}",
+          "$description": "语义尺寸，单位 px；height 表示控件高度，target 表示交互区域下限。"
+        },
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--size-control-height-default)"
+            }
+          },
+          "$type": "number",
+          "$value": "{size.40}",
+          "$description": "语义尺寸，单位 px；height 表示控件高度，target 表示交互区域下限。"
+        },
+        "large": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--size-control-height-large)"
+            }
+          },
+          "$type": "number",
+          "$value": "{size.48}",
+          "$description": "语义尺寸：control/height/large，默认 48 px。"
+        }
+      }
+    },
+    "target": {
+      "touch": {
+        "minimum": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--size-target-touch-minimum)"
+            }
+          },
+          "$type": "number",
+          "$value": "{size.48}",
+          "$description": "语义尺寸，单位 px；height 表示控件高度，target 表示交互区域下限。"
+        }
+      },
+      "pointer": {
+        "minimum": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--size-target-pointer-minimum)"
+            }
+          },
+          "$type": "number",
+          "$value": "{size.24}",
+          "$description": "语义尺寸：target/pointer/minimum，默认 24 px。"
+        }
+      }
+    },
+    "avatar": {
+      "compact": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-avatar-compact)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.32}",
+        "$description": "语义尺寸：avatar/compact，默认 32 px。"
+      },
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-avatar-default)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.40}",
+        "$description": "语义尺寸：avatar/default，默认 40 px。"
+      },
+      "large": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-avatar-large)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.48}",
+        "$description": "语义尺寸：avatar/large，默认 48 px。"
+      }
+    },
+    "indicator": {
+      "dot": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--size-indicator-dot)"
+          }
+        },
+        "$type": "number",
+        "$value": "{size.8}",
+        "$description": "语义尺寸：indicator/dot，默认 8 px。"
+      }
+    }
+  }
+}

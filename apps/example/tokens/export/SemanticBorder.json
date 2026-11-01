@@ -1,0 +1,125 @@
+{
+  "border": {
+    "style": {
+      "default": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--border-style-default)"
+          }
+        },
+        "$type": "text",
+        "$value": "{border-style.solid}",
+        "$description": "默认边框线型，供代码导出；无法直接绑定 Figma 原生描边线型。"
+      }
+    },
+    "width": {
+      "control": {
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--border-width-control-default)"
+            }
+          },
+          "$type": "number",
+          "$value": "{border-width.1}",
+          "$description": "语义边框宽度，单位 px。颜色通过 SemanticColor/color/border 或 color/status 选择。"
+        },
+        "focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--border-width-control-focus)"
+            }
+          },
+          "$type": "number",
+          "$value": "{border-width.2}",
+          "$description": "语义边框宽度，单位 px。颜色通过 SemanticColor/color/border 或 color/status 选择。"
+        }
+      },
+      "divider": {
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--border-width-divider-default)"
+            }
+          },
+          "$type": "number",
+          "$value": "{border-width.1}",
+          "$description": "语义边框宽度，单位 px。颜色通过 SemanticColor/color/border 或 color/status 选择。"
+        }
+      },
+      "none": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_FLOAT"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--border-width-none)"
+          }
+        },
+        "$type": "number",
+        "$value": "{border-width.0}",
+        "$description": "语义边框宽度：none，默认 0 px。"
+      },
+      "surface": {
+        "card": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--border-width-surface-card)"
+            }
+          },
+          "$type": "number",
+          "$value": "{border-width.1}",
+          "$description": "语义边框宽度：surface/card，默认 1 px。"
+        },
+        "overlay": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--border-width-surface-overlay)"
+            }
+          },
+          "$type": "number",
+          "$value": "{border-width.1}",
+          "$description": "语义边框宽度：surface/overlay，默认 1 px。"
+        }
+      },
+      "selection": {
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--border-width-selection-default)"
+            }
+          },
+          "$type": "number",
+          "$value": "{border-width.2}",
+          "$description": "语义边框宽度：selection/default，默认 2 px。"
+        }
+      }
+    }
+  }
+}

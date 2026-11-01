@@ -1,0 +1,136 @@
+{
+  "radii": {
+    "shape": {
+      "none": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-shape-none)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.0}",
+        "$description": "直角，0 px。"
+      },
+      "pill": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-shape-pill)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.full}",
+        "$description": "胶囊形圆角，引用 Global/radii/full。"
+      },
+      "avatar": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-shape-avatar)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.full}",
+        "$description": "圆形头像圆角，引用 Global/radii/full。"
+      }
+    },
+    "control": {
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-control-default)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.8}",
+        "$description": "默认交互控件圆角，8 px。"
+      },
+      "button": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-control-button)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.8}",
+        "$description": "按钮圆角，默认 8 px。"
+      },
+      "input": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-control-input)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.8}",
+        "$description": "输入控件圆角，默认 8 px。"
+      }
+    },
+    "surface": {
+      "card": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-surface-card)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.24}",
+        "$description": "卡片容器圆角，保留现有 24 px。"
+      },
+      "dialog": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-surface-dialog)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.16}",
+        "$description": "对话框圆角，保留现有 16 px。"
+      },
+      "popover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--radii-surface-popover)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.12}",
+        "$description": "浮出面板圆角，默认 12 px。"
+      }
+    }
+  }
+}

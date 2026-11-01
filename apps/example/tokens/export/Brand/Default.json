@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "accentLight": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--brand-accentLight)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.purple.600}",
+      "$description": "DTCG brand.accentLight；Light 主强调色。Default=紫，Halloween=南瓜橙，Lord of the Rings=森林绿。通过 SemanticColor 使用。"
+    },
+    "accentDark": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--brand-accentDark)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.purple.200}",
+      "$description": "DTCG brand.accentDark；Dark 主强调色。按皮肤提供浅色变体，保持与深色前景的对比度。"
+    },
+    "font-family": {
+      "latin": {
+        "$type": "fontFamilies",
+        "$value": "{platform.font-family.latin}"
+      }
+    },
+    "secondaryLight": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{palette.purple.600}",
+      "$description": "DTCG brand.secondaryLight；Light 装饰辅色。Halloween=暗紫，Lord of the Rings=古金。不代表成功/警告状态。"
+    },
+    "secondaryDark": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{palette.purple.200}",
+      "$description": "DTCG brand.secondaryDark；Dark 装饰辅色。Halloween=浅紫，Lord of the Rings=浅金。"
+    }
+  }
+}

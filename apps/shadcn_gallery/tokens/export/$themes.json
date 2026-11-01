@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fe96bd7f52bbb19f51887d959b84eec79a0dbc17",
+    "name": "Zinc",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Zinc": "source"
+    }
+  },
+  {
+    "id": "4d81ad0b2ec198d732c984453ee50b2496ae1a5a",
+    "name": "Red",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Red": "source"
+    }
+  },
+  {
+    "id": "5bd23f896772b8c2f22412679fd73ee3dbb5c90e",
+    "name": "Rose",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Rose": "source"
+    }
+  },
+  {
+    "id": "0bf4555bd916a4245d517b904377c2f7265b2566",
+    "name": "Orange",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Orange": "source"
+    }
+  },
+  {
+    "id": "8c0984eef6ff8f56f60732a36599761dcf11f405",
+    "name": "Green",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Green": "source"
+    }
+  },
+  {
+    "id": "d9258e869aa82c654359771e39e79fa33ed6dd82",
+    "name": "Blue",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Blue": "source"
+    }
+  },
+  {
+    "id": "998269b87a144657760256638b6d3c59f43e99c2",
+    "name": "Yellow",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Yellow": "source"
+    }
+  },
+  {
+    "id": "1f34b38a797e5976618945d82a610d852f75842a",
+    "name": "Violet",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "Brand/Violet": "source"
+    }
+  },
+  {
+    "id": "01a26f95e0fc2c81a95097d579708180a7de5bf8",
+    "name": "Light",
+    "group": "SemanticColor",
+    "selectedTokenSets": {
+      "SemanticColor/Light": "enabled"
+    }
+  },
+  {
+    "id": "d89f0dc452817e247b6cbfb63fd397a84cbe626a",
+    "name": "Dark",
+    "group": "SemanticColor",
+    "selectedTokenSets": {
+      "SemanticColor/Dark": "enabled"
+    }
+  },
+  {
+    "id": "976ed1fd932477398e315b8fe1156f9105350003",
+    "name": "R000",
+    "group": "SemanticRadii",
+    "selectedTokenSets": {
+      "SemanticRadii/R000": "enabled"
+    }
+  },
+  {
+    "id": "43af481c8984dfea2b7dcd294eb74b7981626b83",
+    "name": "R025",
+    "group": "SemanticRadii",
+    "selectedTokenSets": {
+      "SemanticRadii/R025": "enabled"
+    }
+  },
+  {
+    "id": "7538913da641493ecc1b14528370affeb7e0097e",
+    "name": "R050",
+    "group": "SemanticRadii",
+    "selectedTokenSets": {
+      "SemanticRadii/R050": "enabled"
+    }
+  },
+  {
+    "id": "83124df486fb0f2cb63faf886f0630480de7a36d",
+    "name": "R075",
+    "group": "SemanticRadii",
+    "selectedTokenSets": {
+      "SemanticRadii/R075": "enabled"
+    }
+  },
+  {
+    "id": "68a8ccb79c7be8d598b6a5627fbaf74b4dae3f92",
+    "name": "R100",
+    "group": "SemanticRadii",
+    "selectedTokenSets": {
+      "SemanticRadii/R100": "enabled"
+    }
+  }
+]

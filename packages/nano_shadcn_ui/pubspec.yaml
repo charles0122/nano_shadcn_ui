@@ -1,0 +1,20 @@
+name: nano_shadcn_ui
+description: shadcn/ui-flavored component set built on the nano design system
+  — desktop/admin-oriented widgets over the nano token contract.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nano_ui:
+    path: ../nano_ui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

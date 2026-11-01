@@ -1,0 +1,55 @@
+{
+  "brand": {
+    "accentLight": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--brand-accentLight)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.orange.800}",
+      "$description": "DTCG brand.accentLight；Light 主强调色。Default=紫，Halloween=南瓜橙，Lord of the Rings=森林绿。通过 SemanticColor 使用。"
+    },
+    "accentDark": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false,
+        "com.figma.codeSyntax": {
+          "Web": "var(--brand-accentDark)"
+        }
+      },
+      "$type": "color",
+      "$value": "{palette.orange.200}",
+      "$description": "DTCG brand.accentDark；Dark 主强调色。按皮肤提供浅色变体，保持与深色前景的对比度。"
+    },
+    "secondaryLight": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{palette.purple.600}",
+      "$description": "DTCG brand.secondaryLight；Light 装饰辅色。Halloween=暗紫，Lord of the Rings=古金。不代表成功/警告状态。"
+    },
+    "secondaryDark": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "{palette.purple.200}",
+      "$description": "DTCG brand.secondaryDark；Dark 装饰辅色。Halloween=浅紫，Lord of the Rings=浅金。"
+    },
+    "font-family": {
+      "latin": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--brand-font-family-latin)"
+          }
+        },
+        "$type": "text",
+        "$value": "{platform.font-family.latin}",
+        "$description": "DTCG brand.font-family.latin；皮肤字体待选，三种皮肤目前均回退平台参考字体，仅作用于已引用本变量的拉丁字阶；中文/日文沿用语言策略。"
+      }
+    }
+  }
+}

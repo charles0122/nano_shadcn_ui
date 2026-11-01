@@ -1,0 +1,97 @@
+{
+  "asset": {
+    "image": {
+      "illustration": {
+        "hero": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-image-illustration-hero)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.image.illustration.hero}",
+          "$description": "待配置：语义资源引用，映射到 Global/asset-source/image/illustration/hero；不会自动成为原生 Figma Assets 条目或可播放动画。"
+        },
+        "empty-state": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-image-illustration-empty-state)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.image.illustration.empty-state}",
+          "$description": "待配置：语义资源引用。需填入实际 URI 或注册表 ID；不是素材文件本身。"
+        }
+      },
+      "brand": {
+        "logo": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-image-brand-logo)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.image.brand.logo}",
+          "$description": "待配置：语义资源引用。需填入实际 URI 或注册表 ID；不是素材文件本身。"
+        }
+      },
+      "background": {
+        "default": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-image-background-default)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.image.background.default}",
+          "$description": "待配置：语义资源引用。需填入实际 URI 或注册表 ID；不是素材文件本身。"
+        }
+      }
+    },
+    "icon": {
+      "interface": {
+        "default": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-icon-interface-default)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.icon.interface.default}",
+          "$description": "待配置：语义资源引用，映射到 Global/asset-source/icon/interface/default；不会自动成为原生 Figma Assets 条目或可播放动画。"
+        },
+        "close": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-icon-interface-close)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.icon.interface.close}",
+          "$description": "待配置：语义资源引用。需填入实际 URI 或注册表 ID；不是素材文件本身。"
+        }
+      }
+    },
+    "motion": {
+      "feedback": {
+        "loading": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--asset-motion-feedback-loading)"
+            }
+          },
+          "$type": "text",
+          "$value": "{asset-source.motion.feedback.loading}",
+          "$description": "待配置：语义资源引用，映射到 Global/asset-source/motion/feedback/loading；不会自动成为原生 Figma Assets 条目或可播放动画。"
+        }
+      }
+    }
+  }
+}

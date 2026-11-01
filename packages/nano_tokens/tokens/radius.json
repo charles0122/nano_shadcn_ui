@@ -1,0 +1,9 @@
+{
+  "$description": "Corner radii for controls and containers, in logical pixels.",
+  "control": {
+    "sm": { "$type": "dimension", "$value": 8 },
+    "md": { "$type": "dimension", "$value": 12 },
+    "lg": { "$type": "dimension", "$value": 16 },
+    "pill": { "$type": "dimension", "$value": 999 }
+  }
+}

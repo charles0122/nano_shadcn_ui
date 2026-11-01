@@ -1,0 +1,76 @@
+{
+  "opacity": {
+    "state": {
+      "disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "OPACITY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--opacity-state-disabled)"
+          }
+        },
+        "$type": "number",
+        "$value": "{opacity.40}",
+        "$description": "整体图层状态透明度：disabled，比例 0–1。颜色 alpha 由 SemanticColor 自身管理。"
+      },
+      "dragging": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "OPACITY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--opacity-state-dragging)"
+          }
+        },
+        "$type": "number",
+        "$value": "{opacity.50}",
+        "$description": "整体图层状态透明度：dragging，比例 0–1。颜色 alpha 由 SemanticColor 自身管理。"
+      },
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "OPACITY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--opacity-state-default)"
+          }
+        },
+        "$type": "number",
+        "$value": "{opacity.100}",
+        "$description": "整体图层状态透明度：default，比例 0–1；不额外叠乘到带 alpha 的语义颜色。"
+      },
+      "hidden": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "OPACITY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--opacity-state-hidden)"
+          }
+        },
+        "$type": "number",
+        "$value": "{opacity.0}",
+        "$description": "整体图层状态透明度：hidden，比例 0–1；不额外叠乘到带 alpha 的语义颜色。"
+      },
+      "loading": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "OPACITY"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--opacity-state-loading)"
+          }
+        },
+        "$type": "number",
+        "$value": "{opacity.50}",
+        "$description": "整体图层状态透明度：loading，比例 0–1；不额外叠乘到带 alpha 的语义颜色。"
+      }
+    }
+  }
+}

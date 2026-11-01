@@ -1,0 +1,12 @@
+{
+  "keySleepText1": {
+    "$extensions": {
+      "com.figma.scopes": [
+        "TEXT_CONTENT"
+      ],
+      "com.figma.hiddenFromPublishing": false
+    },
+    "$type": "text",
+    "$value": "Sleep Text 1"
+  }
+}

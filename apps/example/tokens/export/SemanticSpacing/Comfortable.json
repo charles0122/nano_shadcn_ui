@@ -1,0 +1,184 @@
+{
+  "spacing": {
+    "inset": {
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-inset-default)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.24}",
+        "$description": "默认容器内边距；Comfortable 24 px，Compact 16 px。保留原 layout/padding 的变量 ID 和模式值。"
+      },
+      "control": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-inset-control)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.12}",
+        "$description": "控件内边距；Comfortable 12 px，Compact 8 px。"
+      },
+      "card": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-inset-card)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.24}",
+        "$description": "卡片内边距；Comfortable 24 px，Compact 16 px。"
+      },
+      "dialog": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-inset-dialog)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.24}",
+        "$description": "对话框内边距；Comfortable 24 px，Compact 16 px。"
+      }
+    },
+    "stack": {
+      "default": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-stack-default)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.16}",
+        "$description": "默认内容间距；Comfortable 16 px，Compact 8 px。保留原 layout/gap 的变量 ID 和模式值。"
+      },
+      "label-content": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-stack-label-content)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.8}",
+        "$description": "标签与内容之间的纵向间距；Comfortable 8 px，Compact 4 px。"
+      },
+      "sections": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-stack-sections)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.32}",
+        "$description": "内容区块之间的纵向间距；Comfortable 32 px，Compact 24 px。"
+      }
+    },
+    "inline": {
+      "icon-label": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-inline-icon-label)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.8}",
+        "$description": "图标与文字之间的横向间距；Comfortable 8 px，Compact 4 px。"
+      },
+      "actions": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-inline-actions)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.12}",
+        "$description": "操作按钮之间的横向间距；Comfortable 12 px，Compact 8 px。"
+      }
+    },
+    "gutter": {
+      "grid": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-gutter-grid)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.24}",
+        "$description": "网格沟槽；Comfortable 24 px，Compact 16 px。"
+      },
+      "page": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--spacing-gutter-page)"
+          }
+        },
+        "$type": "number",
+        "$value": "{spacing.24}",
+        "$description": "页面两侧留白；Comfortable 24 px，Compact 16 px。"
+      }
+    }
+  },
+  "compatibility": {
+    "layout": {
+      "radius": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false,
+          "com.figma.codeSyntax": {
+            "Web": "var(--layout-radius)"
+          }
+        },
+        "$type": "number",
+        "$value": "{radii.surface.card}",
+        "$description": "兼容原 layout/radius；保留变量 ID、--layout-radius 代码名称和 24 px 外观。新设计请使用 SemanticRadii/radii/surface/card。"
+      }
+    }
+  }
+}

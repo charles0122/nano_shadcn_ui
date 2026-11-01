@@ -1,0 +1,36 @@
+{
+  "$description": "shadcn --radius: 0.75rem.",
+  "radii": {
+    "control": {
+      "default": {
+        "$type": "dimension",
+        "$value": 10,
+        "$description": "radius-md = radius - 2px"
+      },
+      "button": {
+        "$type": "dimension",
+        "$value": 10
+      },
+      "input": {
+        "$type": "dimension",
+        "$value": 10
+      }
+    },
+    "surface": {
+      "card": {
+        "$type": "dimension",
+        "$value": 16,
+        "$description": "radius-xl = radius + 4px"
+      },
+      "dialog": {
+        "$type": "dimension",
+        "$value": 12,
+        "$description": "radius-lg = radius"
+      },
+      "popover": {
+        "$type": "dimension",
+        "$value": 12
+      }
+    }
+  }
+}

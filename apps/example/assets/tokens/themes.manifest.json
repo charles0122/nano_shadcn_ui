@@ -1,0 +1,122 @@
+{
+  "source": "apps/example/tokens/export",
+  "sets": [
+    "Brand/Default",
+    "Brand/Halloween",
+    "Brand/Lord of the Rings",
+    "Global/Value",
+    "Global",
+    "Localizations/Sleep/en",
+    "Localizations/Sleep/zh-Hans",
+    "Localizations/健康预警/en",
+    "Localizations/健康预警/zh-Hans",
+    "PlatformFontPreview/Android",
+    "PlatformFontPreview/HarmonyOS",
+    "PlatformFontPreview/iOS",
+    "SemanticAsset/Value",
+    "SemanticAsset",
+    "SemanticBorder/Value",
+    "SemanticBorder",
+    "SemanticColor/Dark",
+    "SemanticColor/Light",
+    "SemanticElevation/Value",
+    "SemanticElevation",
+    "SemanticOpacity/Value",
+    "SemanticOpacity",
+    "SemanticRadii/Value",
+    "SemanticRadii",
+    "SemanticSize/Value",
+    "SemanticSize",
+    "SemanticSpacing/Comfortable",
+    "SemanticSpacing/Compact",
+    "SemanticTypography/de",
+    "SemanticTypography/en",
+    "SemanticTypography/ja",
+    "SemanticTypography/zh-Hans"
+  ],
+  "unboundSets": [
+    "Brand/Lord of the Rings",
+    "Localizations/Sleep/en",
+    "Localizations/Sleep/zh-Hans",
+    "Localizations/健康预警/en",
+    "Localizations/健康预警/zh-Hans",
+    "PlatformFontPreview/Android",
+    "PlatformFontPreview/HarmonyOS",
+    "PlatformFontPreview/iOS",
+    "SemanticAsset",
+    "SemanticAsset/Value",
+    "SemanticBorder",
+    "SemanticElevation",
+    "SemanticOpacity",
+    "SemanticRadii",
+    "SemanticSize",
+    "SemanticTypography/de",
+    "SemanticTypography/en",
+    "SemanticTypography/ja",
+    "SemanticTypography/zh-Hans"
+  ],
+  "groups": {
+    "Brand": [
+      "Halloween",
+      "Default"
+    ],
+    "SemanticBorder": [
+      "Value"
+    ],
+    "SemanticColor": [
+      "Light",
+      "Dark"
+    ],
+    "SemanticElevation": [
+      "Value"
+    ],
+    "SemanticOpacity": [
+      "Value"
+    ],
+    "SemanticRadii": [
+      "Value"
+    ],
+    "SemanticSize": [
+      "Value"
+    ],
+    "SemanticSpacing": [
+      "Compact",
+      "Comfortable"
+    ]
+  },
+  "combinations": [
+    {
+      "name": "Halloween+Value+Light+Value+Value+Value+Value+Compact",
+      "tokens": 386
+    },
+    {
+      "name": "Halloween+Value+Light+Value+Value+Value+Value+Comfortable",
+      "tokens": 386
+    },
+    {
+      "name": "Halloween+Value+Dark+Value+Value+Value+Value+Compact",
+      "tokens": 386
+    },
+    {
+      "name": "Halloween+Value+Dark+Value+Value+Value+Value+Comfortable",
+      "tokens": 386
+    },
+    {
+      "name": "Default+Value+Light+Value+Value+Value+Value+Compact",
+      "tokens": 386
+    },
+    {
+      "name": "Default+Value+Light+Value+Value+Value+Value+Comfortable",
+      "tokens": 386
+    },
+    {
+      "name": "Default+Value+Dark+Value+Value+Value+Value+Compact",
+      "tokens": 386
+    },
+    {
+      "name": "Default+Value+Dark+Value+Value+Value+Value+Comfortable",
+      "tokens": 386
+    }
+  ],
+  "failed": []
+}

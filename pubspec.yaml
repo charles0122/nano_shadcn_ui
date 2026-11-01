@@ -1,0 +1,13 @@
+name: nano_workspace
+description: Monorepo for the nano design system — token-first UI for Flutter.
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+workspace:
+  - packages/nano_tokens
+  - packages/nano_ui
+  - packages/nano_shadcn_ui
+  - apps/example
+  - apps/shadcn_gallery
